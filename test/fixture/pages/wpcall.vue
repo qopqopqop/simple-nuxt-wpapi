@@ -1,6 +1,7 @@
 <template>
   <div>
     <p>Page id: <span>{{ page.id }}</span></p>
+    <nuxt-link to="/">home</nuxt-link>
   </div>
 </template>
 

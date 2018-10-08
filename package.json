@@ -1,11 +1,13 @@
 {
   "name": "simple-nuxt-wpapi",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "license": "MIT",
-  "contributors": [{
-    "name": "Enrique Garrido <kik@ferpect.io>"
-  }],
+  "contributors": [
+    {
+      "name": "Enrique Garrido <kik@ferpect.io>"
+    }
+  ],
   "main": "lib/module.js",
   "repository": "https://github.com/",
   "publishConfig": {

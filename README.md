@@ -23,10 +23,7 @@ TO DO
 ```js
 {
   modules: [
-    // Simple usage
-    "simple-nuxt-wpapi",
-
-    // With options
+    // Usage with options
     [
       "simple-nuxt-wpapi",
       {

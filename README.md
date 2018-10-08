@@ -13,7 +13,7 @@
 
 ## Features
 
-TO DO
+This module is for internal feature testing, it will break often. DO NO USE
 
 ## Setup
 
@@ -36,6 +36,7 @@ TO DO
         },
         wpApi: {
           enabled: true,
+          debug: false,
           options: {
             // node wpapi options
             endpoint: 'http://demo.wp-api.org/wp-json'

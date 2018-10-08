@@ -19,8 +19,9 @@ module.exports = {
         },
         wpApi: {
           enabled: true,
+          debug: true,
           options: {
-            endpoint: 'http://demo.wp-api.org/wp-json'
+            endpoint: 'https://ab.kik.avatarla.io/wp-json'
           }
         }
       }

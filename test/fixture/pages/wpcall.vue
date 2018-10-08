@@ -10,11 +10,11 @@ export default {
   async asyncData({ app }) {
     let page = await app.$wp
       .pages()
-      .id(2)
+      .slug("sample-page")
       .get();
 
     return {
-      page: page
+      page: page[0]
     };
   }
 };

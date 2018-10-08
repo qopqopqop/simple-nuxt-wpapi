@@ -37,7 +37,7 @@ describe('simple nuxt wpapi module', () => {
     )
     let options = call[0].options
     expect(options.wpApi.options.endpoint.toString()).toBe(
-      `http://demo.wp-api.org/wp-json`
+      `https://ab.kik.avatarla.io/wp-json`
     )
   })
 
@@ -47,7 +47,7 @@ describe('simple nuxt wpapi module', () => {
   })
 
   describe('pageWpCall', () => {
-    it('should load page from http://demo.wp-api.org/wp-json and render the id', () => {
+    it('should load /wpcall with sample-page and render the id', () => {
       const html = pageWpCall.document.body.innerHTML
       expect(html).toContain('<span>2</span>')
     })

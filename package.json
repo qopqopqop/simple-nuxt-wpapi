@@ -1,13 +1,11 @@
 {
   "name": "simple-nuxt-wpapi",
   "version": "0.0.6",
-  "description": "",
+  "description": "DO NOT USE - this package is intended as a feature testing tool",
   "license": "MIT",
-  "contributors": [
-    {
-      "name": "Enrique Garrido <kik@ferpect.io>"
-    }
-  ],
+  "contributors": [{
+    "name": "Enrique Garrido <kik@ferpect.io>"
+  }],
   "main": "lib/module.js",
   "repository": "https://github.com/",
   "publishConfig": {
@@ -15,7 +13,7 @@
   },
   "scripts": {
     "dev": "nuxt test/fixture",
-    "lint": "eslint lib test",
+    "lint": "eslint --fix lib test",
     "test": "npm run lint && jest --forceExit --detectOpenHandles --maxWorkers=10",
     "release": "standard-version && git push --follow-tags && npm publish"
   },

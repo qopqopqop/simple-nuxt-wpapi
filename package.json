@@ -15,7 +15,7 @@
     "dev": "nuxt test/fixture",
     "lint": "eslint --fix lib test",
     "test": "npm run lint && jest --forceExit --detectOpenHandles --maxWorkers=10",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "release": "npm run test && standard-version && git push --follow-tags && npm publish"
   },
   "eslintIgnore": [
     "lib/templates/*.*"

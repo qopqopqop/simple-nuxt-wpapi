@@ -30,7 +30,21 @@ TO DO
     [
       "simple-nuxt-wpapi",
       {
-        /* module options */
+        {
+        nodeCache: {
+          enabled: true,
+          options: {
+            // node-cache options
+            }
+        },
+        wpApi: {
+          enabled: true,
+          options: {
+            // node wpapi options
+            endpoint: 'http://demo.wp-api.org/wp-json'
+          }
+        }
+      }
       }
     ]
   ];
@@ -38,8 +52,6 @@ TO DO
 ```
 
 ## Usage
-
-TO DO
 
 ## Development
 
